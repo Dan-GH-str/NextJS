@@ -1,0 +1,40 @@
+.nav {
+    width: 15%;
+}
+
+.nav__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__item {
+    list-style: none;
+}
+
+.nav__link {
+    font-size: 1.1rem;
+    color: rgb(201, 201, 201);
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+.nav__link_active {
+    color: rgb(83, 207, 238);
+}
+
+.nav__link:hover {
+    color: rgb(233, 233, 233);
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        width: 30%;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav {
+        width: 65%;
+    }
+}

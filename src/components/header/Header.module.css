@@ -1,0 +1,8 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgb(39, 37, 37);
+    box-sizing: border-box;
+}
