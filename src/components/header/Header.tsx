@@ -1,4 +1,3 @@
-import Link from "next/link"
 import cl from "./Header.module.css"
 import TypeNavLink from "@/types/navLink.types"
 import Navbar from "../navbar/Navbar"
